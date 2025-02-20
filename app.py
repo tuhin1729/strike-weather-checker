@@ -6,11 +6,11 @@ from selenium.webdriver.chrome.options import Options
 
 app = Flask(__name__)
 
-ip = "127.0.0.1"
+ip = "43.204.152.119"
 
 @app.route('/')
 def home():
-	location = request.args.get('location', 'Karnataka')
+	location = request.args.get('location', 'Goa')
 	weather = [
     {"location": "Karnataka", "weather": "Sunny"},
     {"location": "West Bengal", "weather": "Cloudy"},
