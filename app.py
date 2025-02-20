@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.options import Options
 
 app = Flask(__name__)
 
-ip = "43.204.152.119"
+ip = "127.0.0.1"
 
 @app.route('/')
 def home():
